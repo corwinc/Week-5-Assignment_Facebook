@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC1CFF911C88AC8300A4A438 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1CFF901C88AC8300A4A438 /* PhotoViewController.swift */; };
+		FC1CFF941C88AF1D00A4A438 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1CFF921C88AF1D00A4A438 /* BaseTransition.swift */; };
+		FC1CFF951C88AF1D00A4A438 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1CFF931C88AF1D00A4A438 /* FadeTransition.swift */; };
+		FC1CFF971C88AF3000A4A438 /* PhotoTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1CFF961C88AF3000A4A438 /* PhotoTransition.swift */; };
+		FC1CFF991C88BBD200A4A438 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1CFF981C88BBD200A4A438 /* Common.swift */; };
 		FC98AE461C8892220035D733 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC98AE451C8892220035D733 /* AppDelegate.swift */; };
 		FC98AE481C8892220035D733 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC98AE471C8892220035D733 /* ViewController.swift */; };
 		FC98AE4B1C8892220035D733 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC98AE491C8892220035D733 /* Main.storyboard */; };
@@ -14,6 +19,7 @@
 		FC98AE501C8892220035D733 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC98AE4E1C8892220035D733 /* LaunchScreen.storyboard */; };
 		FC98AE5B1C8892220035D733 /* Week_5_Assignment_FacebookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC98AE5A1C8892220035D733 /* Week_5_Assignment_FacebookTests.swift */; };
 		FC98AE661C8892220035D733 /* Week_5_Assignment_FacebookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC98AE651C8892220035D733 /* Week_5_Assignment_FacebookUITests.swift */; };
+		FCD997961C889AB7006BC8D4 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD997951C889AB7006BC8D4 /* FeedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC1CFF901C88AC8300A4A438 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		FC1CFF921C88AF1D00A4A438 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		FC1CFF931C88AF1D00A4A438 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		FC1CFF961C88AF3000A4A438 /* PhotoTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoTransition.swift; sourceTree = "<group>"; };
+		FC1CFF981C88BBD200A4A438 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		FC98AE421C8892220035D733 /* Week 5 Assignment_Facebook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week 5 Assignment_Facebook.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC98AE451C8892220035D733 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC98AE471C8892220035D733 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		FC98AE611C8892220035D733 /* Week 5 Assignment_FacebookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week 5 Assignment_FacebookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC98AE651C8892220035D733 /* Week_5_Assignment_FacebookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week_5_Assignment_FacebookUITests.swift; sourceTree = "<group>"; };
 		FC98AE671C8892220035D733 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD997951C889AB7006BC8D4 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +112,15 @@
 				FC98AE451C8892220035D733 /* AppDelegate.swift */,
 				FC98AE471C8892220035D733 /* ViewController.swift */,
 				FC98AE491C8892220035D733 /* Main.storyboard */,
+				FCD997951C889AB7006BC8D4 /* FeedViewController.swift */,
+				FC1CFF901C88AC8300A4A438 /* PhotoViewController.swift */,
+				FC1CFF961C88AF3000A4A438 /* PhotoTransition.swift */,
 				FC98AE4C1C8892220035D733 /* Assets.xcassets */,
 				FC98AE4E1C8892220035D733 /* LaunchScreen.storyboard */,
 				FC98AE511C8892220035D733 /* Info.plist */,
+				FC1CFF981C88BBD200A4A438 /* Common.swift */,
+				FC1CFF921C88AF1D00A4A438 /* BaseTransition.swift */,
+				FC1CFF931C88AF1D00A4A438 /* FadeTransition.swift */,
 			);
 			path = "Week 5 Assignment_Facebook";
 			sourceTree = "<group>";
@@ -256,7 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC1CFF991C88BBD200A4A438 /* Common.swift in Sources */,
 				FC98AE481C8892220035D733 /* ViewController.swift in Sources */,
+				FC1CFF941C88AF1D00A4A438 /* BaseTransition.swift in Sources */,
+				FC1CFF911C88AC8300A4A438 /* PhotoViewController.swift in Sources */,
+				FCD997961C889AB7006BC8D4 /* FeedViewController.swift in Sources */,
+				FC1CFF971C88AF3000A4A438 /* PhotoTransition.swift in Sources */,
+				FC1CFF951C88AF1D00A4A438 /* FadeTransition.swift in Sources */,
 				FC98AE461C8892220035D733 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +506,7 @@
 				FC98AE6C1C8892220035D733 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC98AE6D1C8892220035D733 /* Build configuration list for PBXNativeTarget "Week 5 Assignment_FacebookTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +515,7 @@
 				FC98AE6F1C8892220035D733 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC98AE701C8892220035D733 /* Build configuration list for PBXNativeTarget "Week 5 Assignment_FacebookUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +524,7 @@
 				FC98AE721C8892220035D733 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
