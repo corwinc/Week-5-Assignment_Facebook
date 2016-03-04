@@ -79,8 +79,7 @@ class PhotoViewController: UIViewController, UIScrollViewDelegate {
             }
     }
     
-    func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
-    }
+    
     
     // Zoom
     func viewForZoomingInScrollView(scrollView: UIScrollView!) -> UIView! {
